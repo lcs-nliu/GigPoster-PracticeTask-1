@@ -21,17 +21,40 @@ import PlaygroundSupport
  
  Remember that you can refer to the [Canvas class documentation](https://www.russellgordon.ca/canvasgraphics/documentation/classes/canvas), as needed.
  */
-
-// Create a new canvas
-let canvas = Canvas(width: 400, height: 600)
-
-// COLORS
-let lightGrey = Color(hue: 84, saturation: 6, brightness: 88, alpha: 100)
-let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
-
+// Pre project Code
 // Begin your solution here...
-
-
+//// Let's see where the origin is now
+//canvas.drawAxes()
+//
+//// Move the origin 100 pixels right, 100 pixels up
+//canvas.translate(to: Point(x:100, y:200))
+//
+//// Let's see where the origin is now
+//canvas.drawAxes()
+//
+//// Draw a square at the origin
+//canvas.drawRectangle(at: Point(x:0, y:0), width: 50, height: 50)
+//
+//// No fill
+//canvas.drawShapesWithFill = false
+//
+//// Move the origin again
+//canvas.translate(to: Point(x: 200, y:300))
+//
+//// Check where the origin is
+//canvas.drawAxes()
+//
+//// draw six squares rotated around the current origin
+//for _ in 1...6 {
+//    // Rotate origin
+//    canvas.rotate(by: 60)
+//    // Draw the axes
+////    canvas.drawAxes()
+//
+//    // Draw square
+//    canvas.drawRectangle(at: Point(x:0,y:0), width: 50, height: 50)
+//
+//}
 /*:
  ## Use Source Control
  
